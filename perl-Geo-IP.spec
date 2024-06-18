@@ -32,6 +32,8 @@ This module uses the GeoIP Legacy file based database. This database simply
 contains IP blocks as keys, and countries as values. This database should
 be more complete and accurate than reverse DNS lookups.
 
+%global debug_package %{nil}
+
 %prep
 %setup -q -n Geo-IP-%{version}
 

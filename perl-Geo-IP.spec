@@ -1,6 +1,6 @@
 Name:           perl-Geo-IP
 Version:        1.51
-Release:        2%.kng{?dist}
+Release:        2.kng%{?dist}
 Summary:        Look up location and network information by IP Address
 License:        GPL+ or Artistic
 Group:          Development/Libraries
